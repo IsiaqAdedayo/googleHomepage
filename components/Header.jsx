@@ -38,8 +38,8 @@ const Header = () => {
 
             <Transition show={isMenuOpen}>
                 <Transition.Child
-                    enter="transition ease-in duration-100 transform"
-                    enterFrom="opacity-0 scale-0"
+                    enter="transition ease-in duration-300 transform"
+                    enterFrom="opacity-0 scale-100"
                     enterTo="opacity-100 scale-100"
                     className="absolute z-20 top-0 bg-trns w-full h-screen lg:hidden left-0"
                 >

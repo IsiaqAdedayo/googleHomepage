@@ -29,7 +29,7 @@ const Header = () => {
 
     return (
         <div className="w-full pt-5 md:pt-5 px-4 font-semibold h-10 flex flex-row justify-between items-center relative">
-            <div className="flex flex-row space-x-4 text-xs mt-3 md:hidden">
+            <div className="flex flex-row space-x-4 text-xs mt-3 text-gray-700 text-opacity-90  md:hidden">
                 <FontAwesomeIcon onClick={e => setIsMenuOpen(!isMenuOpen)} icon={ faBars } className="w-7 h-5"/>
                 <p className="text-blue-500 border-b-2 border-blue-500 pb-2">ALL</p>
                 <p>IMAGES</p>

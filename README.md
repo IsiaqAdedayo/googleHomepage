@@ -10,7 +10,7 @@ then on your console run "npm run dev" to start the code on your pc.
 
 ## Check out the project
 Check out the live project on [Live Project](https://google-homepage-henna.vercel.app/):
-[![Open Live Project](https://upload.wikimedia.org/wikipedia/commons/thumb/archive/5/53/20200429221626%21Google_%22G%22_Logo.svg/118px-Google_%22G%22_Logo.svg.png)](https://google-homepage-henna.vercel.app/)
+[![Open Live Project](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://google-homepage-henna.vercel.app/)
 
 ## Preview the code
 

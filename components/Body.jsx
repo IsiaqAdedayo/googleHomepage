@@ -32,20 +32,20 @@ const Body = () => {
                 <img src="/google-mic.svg" alt="google-mic" className="h-6 text-gray-300 inline-flex pr-6 pt-1"/>
             </div>
             <div className="flex flex-row mt-4 mb-7 space-x-3 md:space-x-6">
-                <div onClick={() => window.location.href= `https://google.com/search?q=${val}`} className="bg-gray-100 hover:shadow hover:border rounded cursor-pointer">
-                    <h1 className="mx-4 my-2">Google Search</h1>
+                <div onClick={() => window.location.href= `https://google.com/search?q=${val}`} className="px-4 py-2 bg-gray-50 hover:shadow border border-transparent hover:border-gray-300 rounded cursor-pointer">
+                    <h1>Google Search</h1>
                 </div>
-                <div onClick={() => window.location.href= 'https://perfects.engineering'} className="px-4 py-2 bg-gray-100 hover:shadow hover:border rounded cursor-pointer">
+                <div onClick={() => window.location.href= 'https://perfects.engineering'} className="px-4 py-2 bg-gray-50 hover:shadow border border-transparent hover:border-gray-300 rounded cursor-pointer">
                     <h1>I'm Feeling Lucky</h1>
                 </div>
             </div>
             <div className="text-sm flex flex-col md:flex-row space-x-3 justify-center items-center space-y-3 md:space-y-0">
                 <p className="">Google offered in:</p>
                 <div className="flex flex-row space-x-3">
-                    <p className="text-blue-700 hover:border-b border-blue-700 cursor-pointer">Hausa</p>
-                    <p className="text-blue-700 hover:border-b border-blue-700 cursor-pointer">Igbo</p>
-                    <p className="text-blue-700 hover:border-b border-blue-700 cursor-pointer">Èdè Yorùbá</p>
-                    <p className="text-blue-700 hover:border-b border-blue-700 cursor-pointer">Nigerian Pidgin</p>
+                    <p className="text-blue-700 border-b border-transparent hover:border-blue-700 cursor-pointer">Hausa</p>
+                    <p className="text-blue-700 border-b border-transparent hover:border-blue-700 cursor-pointer">Igbo</p>
+                    <p className="text-blue-700 border-b border-transparent hover:border-blue-700 cursor-pointer">Èdè Yorùbá</p>
+                    <p className="text-blue-700 border-b border-transparent hover:border-blue-700 cursor-pointer">Nigerian Pidgin</p>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ Run "npm install" to install all the necessary node modules,
 then on your console run "npm run dev" to start the code on your pc.
 
 ## Check out the project
-Check out the live project on https://google-homepage-henna.vercel.app/
+Check out the live project on [Live Project](https://google-homepage-henna.vercel.app/):
 
 ## Preview the code
 

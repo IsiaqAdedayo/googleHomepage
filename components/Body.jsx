@@ -32,8 +32,8 @@ const Body = () => {
                 <img src="/google-mic.svg" alt="google-mic" className="h-6 text-gray-300 inline-flex pr-6 pt-1"/>
             </div>
             <div className="flex flex-row mt-4 mb-7 space-x-3 md:space-x-6">
-                <div onClick={() => window.location.href= `https://google.com/search?q=${val}`} className="px-4 py-2 bg-gray-100 hover:shadow hover:border rounded cursor-pointer">
-                    <h1>Google Search</h1>
+                <div onClick={() => window.location.href= `https://google.com/search?q=${val}`} className="bg-gray-100 hover:shadow hover:border rounded cursor-pointer">
+                    <h1 className="mx-4 my-2">Google Search</h1>
                 </div>
                 <div onClick={() => window.location.href= 'https://perfects.engineering'} className="px-4 py-2 bg-gray-100 hover:shadow hover:border rounded cursor-pointer">
                     <h1>I'm Feeling Lucky</h1>

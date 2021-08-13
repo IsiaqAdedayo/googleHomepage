@@ -57,8 +57,8 @@ const Header = () => {
             </Transition>
 
             <nav className="flex flex-row justify-around items-center md:w-1/2 lg:w-2/5 xl:w-1/5 ml-auto text-black text-opacity-60">
-                <p className="hidden md:block text-sm hover:border-b border-black cursor-pointer">Gmail</p>
-                <p className="hidden md:block text-sm hover:border-b border-black cursor-pointer">Images</p>
+                <p className="hidden md:block text-sm border-b border-transparent hover:border-black cursor-pointer">Gmail</p>
+                <p className="hidden md:block text-sm border-b border-transparent hover:border-black cursor-pointer">Images</p>
                 <div className="w-10 h-8 p-3 rounded-full flex items-center hover:bg-gray-200 cursor-pointer text-opacity-50">
                     <FontAwesomeIcon icon={ faTh } />
                 </div>

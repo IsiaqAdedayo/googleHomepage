@@ -38,9 +38,12 @@ const Header = () => {
 
             <Transition show={isMenuOpen}>
                 <Transition.Child
-                    enter="transition ease-in duration-300 transform"
+                    enter="transition ease-out duration-300 transform"
                     enterFrom="opacity-0 scale-100"
                     enterTo="opacity-100 scale-100"
+                    leave="transition ease-in transform"
+                    leaveFrom="opacity-0 scale-100"
+                    leaveTo="opacity-100 scale-100"
                     className="absolute z-20 top-0 bg-trns w-full h-screen lg:hidden left-0"
                 >
                     <Transition.Child
@@ -56,7 +59,7 @@ const Header = () => {
                 </Transition.Child>
             </Transition>
 
-            <nav className="flex flex-row justify-around items-center md:w-1/2 lg:w-2/5 xl:w-1/5 ml-auto text-black text-opacity-60">
+            <nav className="flex  flex-row justify-around items-center md:w-1/2 lg:w-2/5 xl:w-1/5 ml-auto text-black text-opacity-60">
                 <p className="hidden md:block text-sm border-b border-transparent hover:border-black cursor-pointer">Gmail</p>
                 <p className="hidden md:block text-sm border-b border-transparent hover:border-black cursor-pointer">Images</p>
                 <div className="w-10 h-8 p-3 rounded-full flex items-center hover:bg-gray-200 cursor-pointer text-opacity-50">

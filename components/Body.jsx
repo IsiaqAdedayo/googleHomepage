@@ -14,12 +14,12 @@ const Body = () => {
 
     return (
         <div className="flex flex-col justify-center items-center flex-1 pb-20">
-            <div className="w-6/12 h-20 md:w-full flex items-center justify-center md:pb-16">
+            <div className="w-6/12 h-24 md:w-full flex items-center justify-center md:pb-16">
                 <Image
                     src="/Google-Logo.wine.svg"  
                     layout="fixed"
                     width={350}           
-                    height="100"           
+                    height="170"           
                 />
             </div>
             <div className="flex items-center rounded-full border border-gray-300 h-10 md:h-12 font-bold w-11/12 md:w-7/12 lg:w-6/12 xl:w-5/12 ">

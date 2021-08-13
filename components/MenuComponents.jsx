@@ -14,7 +14,7 @@ import { faEtsy } from '@fortawesome/free-brands-svg-icons';
 
 const MenuComponents = () => {
     return (
-        <div className="w-3/4 bg-blue-50 pl-3 pt-8 pb-14 space-y-6 overflow-y-scroll overscroll-y-auto h-full">
+        <div className="w-3/4 bg-white pl-3 pt-8 pb-14 space-y-6 overflow-y-scroll overscroll-y-auto h-screen">
             <div className="">
                 <Image
                     src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  

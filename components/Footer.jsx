@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div className="px-8 py-4 flex flex-col-reverse md:flex-row justify-between items-center">
                     <div className="flex flex-row-reverse md:flex-row space-x-8 pt-3 md:pt-0">
-                        <p className="pr-8 md:pr-0 hover:border-b border-gray-500 cursor-pointer">About</p>
+                        <p className="hover:border-b border-gray-500 cursor-pointer">About</p>
                         <p className="pr-8 md:pr-0 hover:border-b border-gray-500 cursor-pointer">Advertising</p>
                         <p className="hover:border-b border-gray-500 cursor-pointer">Business</p>
                         <p className="hidden md:block hover:border-b border-gray-500 cursor-pointer">How Search works</p>

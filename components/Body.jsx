@@ -13,7 +13,7 @@ const Body = () => {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center flex-1 pb-20">
+        <div className="flex flex-col justify-center items-center flex-1 md:pb-20">
             <div className="w-6/12 h-24 md:w-full flex items-center justify-center md:pb-16">
                 <Image
                     src="/Google-Logo.wine.svg"  

@@ -9,8 +9,10 @@ Run "npm install" to install all the necessary node modules,
 then on your console run "npm run dev" to start the code on your pc.
 
 ## Check out the project
+
 Check out the live project on [Live Project](https://google-homepage-henna.vercel.app/):
-[![Open Live Project](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://google-homepage-henna.vercel.app/)
+
+[![Open Live Project](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/120px-Google_%22G%22_Logo.svg.png)](https://google-homepage-henna.vercel.app/)
 
 ## Preview the code
 

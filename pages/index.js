@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useState, useEffect, useRef } from 'react';
 import Body from '../components/Body'
 import Footer from '../components/Footer'
-import Header from '../components/header'
+import Header from '../components/Header'
 
 export default function Home() {
   const node = useRef();

@@ -14,7 +14,7 @@ const Body = () => {
 
     return (
         <div className="flex flex-col justify-center items-center flex-1">
-            <div className="">
+            <div className="w-6/12 h-32 md:w-full flex items-center justify-center">
                 <Image
                     src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  
                     layout="fixed"
@@ -22,7 +22,7 @@ const Body = () => {
                     height="100"           
                 />
             </div>
-            <div className="flex items-center rounded-full border border-gray-300 h-10 font-bold md:w-7/12 lg:w-6/12 xl:w-5/12 ">
+            <div className="flex items-center rounded-full border border-gray-300 h-10 font-bold w-10/12 md:w-7/12 lg:w-6/12 xl:w-5/12 ">
                 <FontAwesomeIcon icon={faSearch} className="h-6 text-gray-300 inline-flex pl-4 pt-1"/>
                 <input 
                     type="text" 

@@ -42,10 +42,10 @@ const Body = () => {
             <div className="text-sm flex flex-col md:flex-row space-x-3 justify-center items-center space-y-3 md:space-y-0">
                 <p className="">Google offered in:</p>
                 <div className="flex flex-row space-x-3">
-                    <p className="text-blue-900 hover:border-b border-blue-900 cursor-pointer">Hausa</p>
-                    <p className="text-blue-900 hover:border-b border-blue-900 cursor-pointer">Igbo</p>
-                    <p className="text-blue-900 hover:border-b border-blue-900 cursor-pointer">Èdè Yorùbá</p>
-                    <p className="text-blue-900 hover:border-b border-blue-900 cursor-pointer">Nigerian Pidgin</p>
+                    <p className="text-blue-700 hover:border-b border-blue-700 cursor-pointer">Hausa</p>
+                    <p className="text-blue-700 hover:border-b border-blue-700 cursor-pointer">Igbo</p>
+                    <p className="text-blue-700 hover:border-b border-blue-700 cursor-pointer">Èdè Yorùbá</p>
+                    <p className="text-blue-700 hover:border-b border-blue-700 cursor-pointer">Nigerian Pidgin</p>
                 </div>
             </div>
         </div>

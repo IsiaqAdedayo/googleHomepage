@@ -17,7 +17,7 @@ const MenuComponents = () => {
         <div className="w-3/4 bg-white pl-3 pt-8 pb-14 space-y-6 overflow-y-scroll overscroll-y-auto h-screen">
             <div className="">
                 <Image
-                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  
+                    src="/Google-Logo.wine.svg"  
                     layout="fixed"
                     width="100"           
                     height="40"           

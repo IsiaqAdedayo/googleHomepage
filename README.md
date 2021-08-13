@@ -8,7 +8,10 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 Run "npm install" to install all the necessary node modules,
 then on your console run "npm run dev" to start the code on your pc.
 
-## Preview
+## Check out the project
+Check out the live project on https://google-homepage-henna.vercel.app/
+
+## Preview the code
 
 Preview the example live on [StackBlitz](http://stackblitz.com/):
 
